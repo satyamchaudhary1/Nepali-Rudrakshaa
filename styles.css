@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsl(274, 33%, 92%);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.certificate-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+/* Responsive Styles */
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .certificate-info {
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
